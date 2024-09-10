@@ -1,0 +1,174 @@
+html {
+    overflow: hidden;
+    user-select: none;
+}
+body {
+    background-color: #111;
+}
+@keyframes logoAnimation {
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#logo {
+    position: absolute;
+
+    width: 500px;
+    height: 100px;
+
+    background-image: url("https://logopng.com.br/logos/netflix-94.png");
+
+    background-size: 500px 100px;
+
+    margin-left: 30%;
+    margin-top: 15%;
+
+    opacity: 0%;
+    animation-name: logoAnimation;
+    animation-duration: 2s;
+}
+
+#user1 {
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+
+    margin-left: 25%;
+    margin-top: 15%;
+
+    background-image: url("https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg");
+
+    background-size: 150px 150px;
+}
+
+#user2 {
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+
+    margin-left: 42.5%;
+    margin-top: 15%;
+
+    background-image: url("https://i.pinimg.com/564x/1b/a2/e6/1ba2e6d1d4874546c70c91f1024e17fb.jpg");
+
+    background-size: 150px 150px;
+}
+
+#user3 {
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+
+    margin-left: 60%;
+    margin-top: 15%;
+
+    background-image: url("https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg");
+
+    background-size: 150px 150px;
+}
+
+#user1:hover {
+    box-shadow: 10px 10px 10px #676767; 
+}
+
+#user2:hover {
+    box-shadow: 10px 10px 10px #676767; 
+}
+
+#user3:hover {
+    box-shadow: 10px 10px 10px #676767; 
+}
+
+#banner01 {
+    position: absolute;
+
+    width: 400px;
+    height: 200px;
+
+    background-image: url("https://i.ytimg.com/vi/6cs-A1rNvEE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7qYZaFNp5aplvoM7SioYh3SPFTA");
+    background-size: 400px 200px;
+
+    margin-left: -500px;
+    margin-top: 400px;
+
+    opacity: 0.1;
+}
+
+#banner1 {
+    position: absolute;
+
+    width: 400px;
+    height: 200px;
+
+    background-image: url("https://rollingstone.com.br/media/_versions/2024/09/trailer-de-um-filme-minecraft-supera-a-marca-de-1-milhao-de-dislikes-no-youtube_widelg.jpg");
+    background-size: 400px 200px;
+
+    margin-left: 0px;
+    margin-top: 400px;
+
+    opacity: 0.1;
+}
+
+#banner2 {
+    position: absolute;
+
+    width: 400px;
+    height: 200px;
+
+    background-image: url("https://t.ctcdn.com.br/a8UEwVXrjjKDtyToN8SUPCXjUCg=/1200x675/smart/i831855.jpeg");
+    background-size: 400px 200px;
+
+    margin-left: 500px;
+    margin-top: 400px;
+
+    opacity: 0.1;
+}
+
+#banner3 {
+    position: absolute;
+
+    width: 400px;
+    height: 200px;
+
+    background-image: url("https://psxbrasil.com.br/wp-content/uploads/2024/08/Mafia-Ann_08-20-24-1.jpg");
+    background-size: 400px 200px;
+
+    margin-left: 1000px;
+    margin-top: 400px;
+
+    opacity: 0.1;
+}
+
+@keyframes lancamentosAnimFade {
+    100% {
+        opacity: 1;
+    }
+}
+
+#lançamentos {
+    position: absolute;
+
+    color: #fff;
+
+    font-size: 49px;
+
+    opacity: 0;
+
+    text-shadow: 5px 5px 10px #fff;
+
+    animation-name: lancamentosAnimFade;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+
+    margin-left: 31.5%;
+    margin-top: 15%;
+}
